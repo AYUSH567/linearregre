@@ -1,7 +1,8 @@
 
 # importing the necessary dependencies
-from flask import Flask, render_template, request
 import pickle
+
+from flask import Flask, render_template, request
 
 application = Flask(__name__) # initializing a flask app
 # app=application
